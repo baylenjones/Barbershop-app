@@ -12,7 +12,7 @@ const connection = new signalR.HubConnectionBuilder()
 connection.on("Update", (myQue) => {
     for (x in myQue)
     {
-        $('#myQue-panel').prepend($('<div />').text(x));
+        $('#queue-panel').prepend($('<div />').text(x));
     }
 });
 
@@ -23,12 +23,12 @@ connection.on("ReceiveMessage", (message) => {
 // Sending actions
 $('#btn-broadcast').click(function () {
     var message = $('#broadcast').val();
-    connection.invoke("BroadcastMessage", message).catch(err => console.error(err.to/String()));
+    connection.invoke("BroadcastMessage", message).catch(err => console.error(err.toString()));
 });
 
-$('#btn-add').click(function () {
+$('#btn-adduser').click(function () {
     var user = $('#user').val();
-    connection.invoke("addUser", user).catch(err => console.error(err.to/String()));
+    connection.invoke("addUser", user).catch(err => console.error(err.toString()));
 });
 
 // Start Connection with sever via SignalR
