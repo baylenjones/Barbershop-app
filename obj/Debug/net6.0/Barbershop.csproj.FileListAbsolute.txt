@@ -16,7 +16,7 @@
 /Users/baylenjones/dev/web/Barbershop/obj/Debug/net6.0/Barbershop.RazorAssemblyInfo.cs
 /Users/baylenjones/dev/web/Barbershop/obj/Debug/net6.0/staticwebassets.build.json
 /Users/baylenjones/dev/web/Barbershop/obj/Debug/net6.0/staticwebassets.development.json
-/Users/baylenjones/dev/web/Barbershop/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/baylenjones/dev/web/Barbershop/obj/Debug/net6.0/scopedcss/Shared/MainLayout.razor.rz.scp.css
 /Users/baylenjones/dev/web/Barbershop/obj/Debug/net6.0/scopedcss/bundle/Barbershop.styles.css
 /Users/baylenjones/dev/web/Barbershop/obj/Debug/net6.0/scopedcss/projectbundle/Barbershop.bundle.scp.css
 /Users/baylenjones/dev/web/Barbershop/obj/Debug/net6.0/Barbershop.dll
@@ -24,3 +24,14 @@
 /Users/baylenjones/dev/web/Barbershop/obj/Debug/net6.0/Barbershop.pdb
 /Users/baylenjones/dev/web/Barbershop/obj/Debug/net6.0/Barbershop.genruntimeconfig.cache
 /Users/baylenjones/dev/web/Barbershop/obj/Debug/net6.0/ref/Barbershop.dll
+/Users/baylenjones/dev/web/Barbershop/bin/Debug/net6.0/Microsoft.AspNetCore.Connections.Abstractions.dll
+/Users/baylenjones/dev/web/Barbershop/bin/Debug/net6.0/Microsoft.AspNetCore.Http.Connections.Client.dll
+/Users/baylenjones/dev/web/Barbershop/bin/Debug/net6.0/Microsoft.AspNetCore.Http.Connections.Common.dll
+/Users/baylenjones/dev/web/Barbershop/bin/Debug/net6.0/Microsoft.AspNetCore.SignalR.Client.dll
+/Users/baylenjones/dev/web/Barbershop/bin/Debug/net6.0/Microsoft.AspNetCore.SignalR.Client.Core.dll
+/Users/baylenjones/dev/web/Barbershop/bin/Debug/net6.0/Microsoft.AspNetCore.SignalR.Common.dll
+/Users/baylenjones/dev/web/Barbershop/bin/Debug/net6.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+/Users/baylenjones/dev/web/Barbershop/bin/Debug/net6.0/Microsoft.Extensions.Features.dll
+/Users/baylenjones/dev/web/Barbershop/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/baylenjones/dev/web/Barbershop/bin/Debug/net6.0/System.IO.Pipelines.dll
+/Users/baylenjones/dev/web/Barbershop/obj/Debug/net6.0/Barbershop.csproj.CopyComplete

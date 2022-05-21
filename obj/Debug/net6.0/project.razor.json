@@ -12,6 +12,168 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 1341223851,
+        "Kind": "Components.Component",
+        "Name": "Barbershop.Shared.MainLayout",
+        "AssemblyName": "Barbershop",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MainLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Barbershop.Shared.MainLayout"
+        }
+      },
+      {
+        "HashCode": -639357428,
+        "Kind": "Components.Component",
+        "Name": "Barbershop.Shared.MainLayout",
+        "AssemblyName": "Barbershop",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Barbershop.Shared.MainLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Barbershop.Shared.MainLayout",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1033597650,
+        "Kind": "Components.ChildContent",
+        "Name": "Barbershop.Shared.MainLayout.Body",
+        "AssemblyName": "Barbershop",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "MainLayout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "Barbershop.Shared.MainLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": 705035987,
+        "Kind": "Components.ChildContent",
+        "Name": "Barbershop.Shared.MainLayout.Body",
+        "AssemblyName": "Barbershop",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "Barbershop.Shared.MainLayout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "Barbershop.Shared.MainLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -2121643507,
+        "Kind": "Components.Component",
+        "Name": "Barbershop.Pages.Index",
+        "AssemblyName": "Barbershop",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Barbershop.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 1543932578,
+        "Kind": "Components.Component",
+        "Name": "Barbershop.Pages.Index",
+        "AssemblyName": "Barbershop",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Barbershop.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Barbershop.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 165251631,
+        "Kind": "Components.Component",
+        "Name": "Barbershop.App",
+        "AssemblyName": "Barbershop",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Barbershop.App"
+        }
+      },
+      {
+        "HashCode": -869016171,
+        "Kind": "Components.Component",
+        "Name": "Barbershop.App",
+        "AssemblyName": "Barbershop",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Barbershop.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Barbershop.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1747176,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
@@ -16298,33 +16460,38 @@
   "RootNamespace": "Barbershop",
   "Documents": [
     {
-      "FilePath": "/Users/baylenjones/dev/web/Barbershop/Views/Home/Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FilePath": "/Users/baylenjones/dev/web/Barbershop/_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "/Users/baylenjones/dev/web/Barbershop/Pages/_Host.cshtml",
+      "TargetPath": "Pages\\_Host.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/baylenjones/dev/web/Barbershop/Views/_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FilePath": "/Users/baylenjones/dev/web/Barbershop/Pages/Index.razor",
+      "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/baylenjones/dev/web/Barbershop/Shared/MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/baylenjones/dev/web/Barbershop/App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/baylenjones/dev/web/Barbershop/Pages/Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/baylenjones/dev/web/Barbershop/Views/_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/baylenjones/dev/web/Barbershop/Views/Shared/_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/baylenjones/dev/web/Barbershop/Views/Shared/Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/baylenjones/dev/web/Barbershop/Views/Shared/_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "/Users/baylenjones/dev/web/Barbershop/Pages/_Layout.cshtml",
+      "TargetPath": "Pages\\_Layout.cshtml",
       "FileKind": "mvc"
     }
   ],

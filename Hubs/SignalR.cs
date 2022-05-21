@@ -1,32 +1,26 @@
 using Microsoft.AspNetCore.SignalR;
-using Barbershop;
+using Barbershop.Data;
 
 namespace Barbershop.Hubs
 {
     public class SignalR : Hub
     {
-        public async Task addUser(string customer)
+        public async Task addUser(string user)
         {
-            myQue.add(customer);
-            var currentArray = myQue.current.ToArray();
-            await Clients.All.SendAsync("Update", currentArray);
+            myQue.addUser(user);
+            await Clients.All.SendAsync("Update", myQue.current);
         }
-        public async Task removeUser()
+
+        public async Task rmUser()
         {
-            myQue.remove();
-            var currentArray = myQue.current.ToArray();
-            await Clients.All.SendAsync("Update", currentArray);
-        }
-        public async Task BroadcastMessage(string message)
-        {
-            await Clients.All.SendAsync("ReceiveMessage", message);
+            myQue.rmUser();
+            await Clients.All.SendAsync("Update", myQue.current);
         }
 
         public override async Task OnConnectedAsync()
         {
             await base.OnConnectedAsync();
-            var currentArray = myQue.current.ToArray();
-            await Clients.All.SendAsync("Update", currentArray);
+            await Clients.All.SendAsync("Update", myQue.current);
         }
 
         public override async Task OnDisconnectedAsync(Exception? exception)

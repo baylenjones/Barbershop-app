@@ -1,0 +1,76 @@
+﻿@page "/"
+@using Microsoft.AspNetCore.SignalR.Client
+@inject NavigationManager NavigationManager
+@implements IAsyncDisposable
+
+<PageTitle>Barbershop | Home</PageTitle>
+
+<div class="Container m-4 h-100">
+    <div class="controls row mx-auto w-25">
+        <input @bind="userInput" />
+        <button type="button" class="btn-lg m-1 btn-success" @onclick="addUser" disabled="@(!IsConnected)">Send</button>
+        <button type="button" class="btn-lg m-1 btn-primary" @onclick="rmUser" disabled="@(!IsConnected)">Next</button>
+    </div>
+</div>
+
+<ol id="Queue">
+    @foreach (var user in users)
+    {
+        <li>@user</li>
+    }
+
+    @if (users.Count == 0)
+    {
+        <p>There are no Customers at this time</p>
+
+    }
+
+</ol>
+
+@code {
+    private HubConnection? hubConnection;
+    private List<string> users = new List<string>();
+    private string? userInput;
+
+    protected override async Task OnInitializedAsync()
+    {
+        hubConnection = new HubConnectionBuilder()
+        .WithUrl(NavigationManager.ToAbsoluteUri("/signalr"))
+        .Build();
+
+        hubConnection.On<List<string>>("Update", (current) =>
+        {
+            users = current;
+            InvokeAsync(StateHasChanged);
+        });
+
+        await hubConnection.StartAsync();
+    }
+
+    private async Task addUser()
+    {
+        if (hubConnection is not null)
+        {
+            await hubConnection.SendAsync("addUser", userInput);
+        }
+    }
+
+    private async Task rmUser()
+    {
+        if (hubConnection is not null)
+        {
+            await hubConnection.SendAsync("rmUser");
+        }
+    }
+
+    public bool IsConnected =>
+    hubConnection?.State == HubConnectionState.Connected;
+
+    public async ValueTask DisposeAsync()
+    {
+        if (hubConnection is not null)
+        {
+            await hubConnection.DisposeAsync();
+        }
+    }
+}
