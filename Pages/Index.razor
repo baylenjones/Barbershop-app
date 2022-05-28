@@ -5,55 +5,8 @@
 
 <PageTitle>Barbershop | Home</PageTitle>
 
-<div class="Container row w-100 h-100">
+<div class="Container bg-dark row w-100 h-100 minHeight">
     <div class="customerInfo col-2 m-5 h-100">
-        <h1>Business Hours:</h1>
-        <table class="table table-borderless">
-            <thread>
-                <tr>
-                    <th scope="col">Day</th>
-                    <th scope="col">Open</th>
-                    <th scope="col">Close</th>
-                </tr>
-            </thread>
-            <tbody>
-                <tr>
-                    <th class="row">Monday</th>
-                    <td>0830</td>
-                    <td>1800</td>
-                </tr>
-                <tr>
-                    <th class="row">Tuesday</th>
-                    <td>0830</td>
-                    <td>1800</td>
-                </tr>
-                <tr>
-                    <th class="row">Wednesday</th>
-                    <td>0830</td>
-                    <td>1800</td>
-                </tr>
-                <tr>
-                    <th class="row">Thursday</th>
-                    <td>0830</td>
-                    <td>1800</td>
-                </tr>
-                <tr>
-                    <th class="row">Friday</th>
-                    <td>0830</td>
-                    <td>1800</td>
-                </tr>
-                <tr>
-                    <th class="row">Saturday</th>
-                    <td>0830</td>
-                    <td>1800</td>
-                </tr>
-                <tr>
-                    <th class="row">Sunday</th>
-                    <td>0830</td>
-                    <td>1800</td>
-                </tr>
-            </tbody>
-        </table>
 
     </div>
     <div class="col-6 h-100 mx-auto">
@@ -61,7 +14,7 @@
         <button type="button" class="btn-lg m-1 btn-success" @onclick="addUser" disabled="@(!IsConnected)">Add
             Name</button>
         <button type="button" class="btn-lg m-1 btn-primary" @onclick="rmUser" disabled="@(!IsConnected)">Next</button>
-        <div class="queuePanel bg-primary">
+        <div class="queuePanel bg-primary w-50">
             <ol class="Queue">
                 @foreach (var user in users)
                 {

@@ -1,0 +1,92 @@
+﻿@page "/command"
+@using Microsoft.AspNetCore.SignalR.Client
+@inject NavigationManager NavigationManager
+@implements IAsyncDisposable
+
+<PageTitle>Barbershop | Home</PageTitle>
+
+<div class="Container bg-dark row g-0 w-100 h-100 minHeight">
+    <div class="col-4 h-100 minHeight">
+        <div class="bg-primary text-light text-center">
+            <h2 class="h-100">Queue List</h2>
+        </div>
+            <div class="queuePanel bg-primary w-75 p-1 mx-auto">
+                <ol class="Queue">
+                    @foreach (var user in users)
+                    {
+                        <li>@user</li>
+                    }
+
+                    @if (users.Count == 0)
+                    {
+                    <p>There are no Customers at this time</p>
+                    }
+                </ol>
+            </div>
+    </div>
+    <div class="col-4 text-light h-100">
+        <div class="bg-danger h-100 text-light text-center">
+             <h2 class="h-100">Hot Seat</h2>
+        </div>
+        <h2>John Doe</h2>
+    </div>
+    <div class="col-4 h-100">
+        <div class="bg-secondary text-light text-center h-100">
+            <h2 class="h-100">INFO</h2>
+        </div>
+            <button type="button" class="btn-lg m-1 btn-success" @onclick="addUser" disabled="@(!IsConnected)">Add
+                Name</button>
+            <button type="button" class="btn-lg m-1 btn-primary" @onclick="rmUser" disabled="@(!IsConnected)">Next</button>
+            <input @bind="userInput" />
+    </div>
+</div>
+
+
+
+@code {
+    private HubConnection? hubConnection;
+    private List<string> users = new List<string>();
+    private string? userInput;
+
+    protected override async Task OnInitializedAsync()
+    {
+        hubConnection = new HubConnectionBuilder()
+        .WithUrl(NavigationManager.ToAbsoluteUri("/signalr"))
+        .Build();
+
+        hubConnection.On<List<string>>("Update", (current) =>
+        {
+            users = current;
+            InvokeAsync(StateHasChanged);
+        });
+
+        await hubConnection.StartAsync();
+    }
+
+    private async Task addUser()
+    {
+        if (hubConnection is not null && userInput != "")
+        {
+            await hubConnection.SendAsync("addUser", userInput);
+        }
+    }
+
+    private async Task rmUser()
+    {
+        if (hubConnection is not null)
+        {
+            await hubConnection.SendAsync("rmUser");
+        }
+    }
+
+    public bool IsConnected =>
+    hubConnection?.State == HubConnectionState.Connected;
+
+    public async ValueTask DisposeAsync()
+    {
+        if (hubConnection is not null)
+        {
+            await hubConnection.DisposeAsync();
+        }
+    }
+}
