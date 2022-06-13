@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bayle\\dev\\Barbershop-app\\Barbershop.csproj": {}
+    "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\Barbershop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bayle\\dev\\Barbershop-app\\Barbershop.csproj": {
+    "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\Barbershop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bayle\\dev\\Barbershop-app\\Barbershop.csproj",
+        "projectUniqueName": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\Barbershop.csproj",
         "projectName": "Barbershop",
-        "projectPath": "C:\\Users\\bayle\\dev\\Barbershop-app\\Barbershop.csproj",
+        "projectPath": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\Barbershop.csproj",
         "packagesPath": "C:\\Users\\bayle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bayle\\dev\\Barbershop-app\\obj\\",
+        "outputPath": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

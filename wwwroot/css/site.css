@@ -82,3 +82,14 @@ a, .btn-link {
 .minHeight {
     min-height: 100vh;
 }
+
+.minWidth {
+    min-width: 100vw;
+}
+
+.circle {
+    border-radius: 100%;
+    background: green;
+    height: 50vh;
+    width: 50vh;
+}

@@ -3,38 +3,14 @@
 @inject NavigationManager NavigationManager
 @implements IAsyncDisposable
 
-<PageTitle>Barbershop | Home</PageTitle>
-
-<div class="Container bg-dark row w-100 h-100 minHeight">
-    <div class="customerInfo col-2 m-5 h-100">
-
+<div class="container row h-100 bg-dark text-light minWidth">
+    <div class="col-8">
+        <h1>Estimated Time for Haircut: </h1>
+        <div class="circle col"></div>
     </div>
-    <div class="col-6 h-100 mx-auto">
-        <input @bind="userInput" />
-        <button type="button" class="btn-lg m-1 btn-success" @onclick="addUser" disabled="@(!IsConnected)">Add
-            Name</button>
-        <button type="button" class="btn-lg m-1 btn-primary" @onclick="rmUser" disabled="@(!IsConnected)">Next</button>
-        <div class="queuePanel bg-primary w-50">
-            <ol class="Queue">
-                @foreach (var user in users)
-                {
-                    <li>@user</li>
-                }
+    <div class="col-4">right</div>
 
-                @if (users.Count == 0)
-                {
-                    <p>There are no Customers at this time</p>
-
-                }
-
-            </ol>
-        </div>
-
-    </div>
-    <div class="time col-4 h-100"></div>
 </div>
-
-
 
 @code {
     private HubConnection? hubConnection;

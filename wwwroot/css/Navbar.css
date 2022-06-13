@@ -1,0 +1,12 @@
+.Logo {
+    
+}
+
+.navLinks {
+    list-style: none;
+}
+
+.navLinks li a {
+    text-decoration: none;
+    color: red;
+}

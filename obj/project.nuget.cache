@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lekWDcnBfQC/Cv5v9C8k42vkdRRjl+5VBKuxswJFckMjvE/38HLmcEQ8P/03pEtkse5H3l2nJ2x6ILumFYREKw==",
+  "dgSpecHash": "O3pFa/OkWqs7mw/XtrQr5VnmDekiO4yE9aNpRm9RR6Ei36bwR6j6SXkGG4PlNAOv+LgRE5uM6nunGjzrWaxYJA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bayle\\dev\\Barbershop-app\\Barbershop.csproj",
+  "projectFilePath": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\Barbershop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bayle\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\6.0.5\\microsoft.aspnetcore.connections.abstractions.6.0.5.nupkg.sha512",
     "C:\\Users\\bayle\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\6.0.5\\microsoft.aspnetcore.http.connections.client.6.0.5.nupkg.sha512",

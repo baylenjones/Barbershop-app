@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hlbv3f9d0ra574bR2AfM+lSXH/WWcy1+RglNztZebhY=",
+  "Hash": "jImVTxxnXcBy4ie7RxYwElGKBuatSqOZ5Jj7oxS8sis=",
   "Source": "Barbershop",
   "BasePath": "_content/Barbershop",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Barbershop\\wwwroot",
       "Source": "Barbershop",
-      "ContentRoot": "C:\\Users\\bayle\\dev\\Barbershop-app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\wwwroot\\",
       "BasePath": "_content/Barbershop",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\bayle\\dev\\Barbershop-app\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Barbershop.styles.css",
+      "Identity": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Barbershop.styles.css",
       "SourceId": "Barbershop",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\bayle\\dev\\Barbershop-app\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Barbershop",
       "RelativePath": "Barbershop.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bayle\\dev\\Barbershop-app\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Barbershop.styles.css"
+      "OriginalItemSpec": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Barbershop.styles.css"
     },
     {
-      "Identity": "C:\\Users\\bayle\\dev\\Barbershop-app\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Barbershop.bundle.scp.css",
+      "Identity": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Barbershop.bundle.scp.css",
       "SourceId": "Barbershop",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\bayle\\dev\\Barbershop-app\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Barbershop",
       "RelativePath": "Barbershop.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bayle\\dev\\Barbershop-app\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Barbershop.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Barbershop.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\bayle\\dev\\Barbershop-app\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "Barbershop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bayle\\dev\\Barbershop-app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\wwwroot\\",
       "BasePath": "_content/Barbershop",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\bayle\\dev\\Barbershop-app\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Barbershop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bayle\\dev\\Barbershop-app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\wwwroot\\",
       "BasePath": "_content/Barbershop",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,27 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\bayle\\dev\\Barbershop-app\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\wwwroot\\css\\Navbar.css",
       "SourceId": "Barbershop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bayle\\dev\\Barbershop-app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\wwwroot\\",
+      "BasePath": "_content/Barbershop",
+      "RelativePath": "css/Navbar.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Navbar.css"
+    },
+    {
+      "Identity": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "Barbershop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\wwwroot\\",
       "BasePath": "_content/Barbershop",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -102,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\bayle\\dev\\Barbershop-app\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "Barbershop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bayle\\dev\\Barbershop-app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\wwwroot\\",
       "BasePath": "_content/Barbershop",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -119,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\bayle\\dev\\Barbershop-app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "Barbershop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bayle\\dev\\Barbershop-app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\wwwroot\\",
       "BasePath": "_content/Barbershop",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -136,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\bayle\\dev\\Barbershop-app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "Barbershop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bayle\\dev\\Barbershop-app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\wwwroot\\",
       "BasePath": "_content/Barbershop",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -153,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\bayle\\dev\\Barbershop-app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "Barbershop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bayle\\dev\\Barbershop-app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\wwwroot\\",
       "BasePath": "_content/Barbershop",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -170,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\bayle\\dev\\Barbershop-app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "Barbershop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bayle\\dev\\Barbershop-app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\wwwroot\\",
       "BasePath": "_content/Barbershop",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -187,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\bayle\\dev\\Barbershop-app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "Barbershop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bayle\\dev\\Barbershop-app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\wwwroot\\",
       "BasePath": "_content/Barbershop",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -204,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\bayle\\dev\\Barbershop-app\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "Barbershop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bayle\\dev\\Barbershop-app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\wwwroot\\",
       "BasePath": "_content/Barbershop",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\bayle\\dev\\Barbershop-app\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "Barbershop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bayle\\dev\\Barbershop-app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\wwwroot\\",
       "BasePath": "_content/Barbershop",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\bayle\\dev\\Barbershop-app\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\wwwroot\\css\\site.css",
       "SourceId": "Barbershop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bayle\\dev\\Barbershop-app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\wwwroot\\",
       "BasePath": "_content/Barbershop",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\bayle\\dev\\Barbershop-app\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\wwwroot\\favicon.ico",
       "SourceId": "Barbershop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bayle\\dev\\Barbershop-app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayle\\dev\\dotnet\\Barbershop-app\\wwwroot\\",
       "BasePath": "_content/Barbershop",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
